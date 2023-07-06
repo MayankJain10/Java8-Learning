@@ -1,0 +1,28 @@
+package com.Java8.LambdaExpression;
+
+public class LambdaThread {
+	public static void main(String[] args) {
+		
+		// first thread: Thread name -> Mayank
+		
+		Runnable thread1 = ()->{
+			// The body of the thread
+			
+			// print numbers from 1 to 10
+			for(int i=0; i<=10; i++) {
+				System.out.println("Numbers:- " + i);
+				
+				// after run, thread will sleep for few seconds
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		};
+		
+		Thread t= new Thread(thread1);
+		t.setName("Mayank");
+		t.start();
+	}
+}

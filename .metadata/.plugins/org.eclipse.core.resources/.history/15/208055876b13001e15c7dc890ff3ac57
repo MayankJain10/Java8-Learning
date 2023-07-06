@@ -1,0 +1,6 @@
+package com.Java8.LambdaExpression;
+
+@FunctionalInterface
+interface Lambda1{
+	public int getlength(String str);
+}

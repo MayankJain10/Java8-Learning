@@ -1,0 +1,13 @@
+package com.Java8.LambdaExpression;
+
+import javax.swing.JFrame;
+
+public class MyWindowApplication {
+	public static void main(String[] args) {
+		
+		// window : object JFrame
+		JFrame jf = new JFrame("My Window");
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+}

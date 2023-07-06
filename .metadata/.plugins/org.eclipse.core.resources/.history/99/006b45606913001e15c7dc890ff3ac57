@@ -1,0 +1,15 @@
+package com.Java8.LambdaExpression;
+
+interface Lambda{
+	public int sum(int a, int b);
+}
+
+public class LambdaWithArgument {
+	public static void main(String[] args) {
+		Lambda lam = (a, b)->{
+			return a+b;
+		};
+		System.out.println("sum of two numbers is: " + lam);
+		lam.sum(10, 20);
+	}
+}

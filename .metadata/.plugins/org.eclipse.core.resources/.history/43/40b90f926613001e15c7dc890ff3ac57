@@ -1,0 +1,18 @@
+package com.Java8.LambdaExpression;
+
+interface Demo1 {
+	public void withoutLabdaMethod();
+}
+	
+public class Demo{
+	public static void main(String[] args) {
+		
+	
+//		demo.withoutLabdaMethod();
+		
+		Demo1 demo = ()->{
+			System.out.println("Hello World");
+		};
+		demo.withoutLabdaMethod();
+}
+}

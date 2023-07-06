@@ -1,0 +1,15 @@
+package com.Java8.LambdaExpression;
+
+public class Demo {
+	public void withoutLabdaMethod() {
+//		System.out.println("Test");
+		
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Demo demo = new Demo();
+		demo.withoutLabdaMethod();
+	}
+}

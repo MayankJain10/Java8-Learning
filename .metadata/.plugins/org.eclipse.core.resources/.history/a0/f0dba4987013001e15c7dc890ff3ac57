@@ -1,0 +1,21 @@
+package com.Java8.LambdaExpression;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class MyWindowApplication {
+	public static void main(String[] args) {
+		
+		// window : object JFrame
+		JFrame jf = new JFrame("My Window");
+		jf.setSize(400, 400jf.setLayout(null);
+		
+		// create button and add in JFrame
+		JButton button = new JButton("Click Me!");
+		jf.add(button);
+		
+		jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		jf.setVisible(true);
+	}
+
+}
